@@ -3,5 +3,10 @@ __pycache__/
 *.pyc
 .env
 .pytest_cache/
-uploads/**/*
-!uploads/**/.gitkeep
+uploads/*
+!uploads/attendance/
+!uploads/leave/
+uploads/attendance/*
+!uploads/attendance/.gitkeep
+uploads/leave/*
+!uploads/leave/.gitkeep
