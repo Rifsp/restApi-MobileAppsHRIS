@@ -168,7 +168,8 @@ def dispatch_announcement(
                 "to": item["token"],
                 "title": announcement["e_judul"],
                 "body": announcement["e_isi"][:200],
-                "sound": "default",
+                "channelId": "pengumuman_v2",
+                "sound": "notification_sound.wav",
                 "data": {
                     "type": "announcement",
                     "i_pengumuman": announcement_id,
